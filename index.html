@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>chemistjus.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+#animated_div {
+    width: 110px;
+    height: 47px;
+    background: #92B901 none repeat scroll 0% 0%;
+    color: #FFF;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation: 5s ease 0s normal none 1 running animated_div;
+    border-radius: 5px;
+    animation-iteration-count:infinite;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+@keyframes animated_div{
+0% {
+    transform: rotate(0deg);
+    left: 0px;
+}
+25% {
+    transform: rotate(20deg);
+    left: 0px;
+}
+50% {
+    transform: rotate(0deg);
+    left: 500px;
+}
+55% {
+    transform: rotate(0deg);
+    left: 500px;
+}
+70% {
+    transform: rotate(0deg);
+    left: 500px;
+    background: #1EC7E6 none repeat scroll 0% 0%;
+}
+100% {
+    transform: rotate(-360deg);
+    left: 0px;
+}
+}
+
+
+#animated {
+    width: 120px;
+    height: 47px;
+    background: #92B901 none repeat scroll 0% 0%;
+    color: #FFF;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation: 5s ease 0s normal none 1 running animated;
+    border-radius: 5px;
+    animation-iteration-count:infinite;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+@keyframes animated{
+0% {
+    transform: rotate(0deg);
+    left: 0px;
+}
+25% {
+    transform: rotate(20deg);
+    left: 0px;
+}
+50% {
+    transform: rotate(0deg);
+    left: 500px;
+}
+55% {
+    transform: rotate(0deg);
+    left: 500px;
+}
+70% {
+    transform: rotate(0deg);
+    left: 500px;
+    background: #1EC7E6 none repeat scroll 0% 0%;
+}
+100% {
+    transform: rotate(-360deg);
+    left: 0px;
+}
+}
+.anotherheader{
+	overflow: hidden;
+  	background-color: #333;
+	}
+.anotherheader a{
+	float: left;
+ 	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+	}
+.anotherheader a.active{
+	background-color: #04AA6D;
+  	color: white;
+	}
+
+.anotherheader a:hover{
+	background-color: #ddd;
+  	color: black;
+	}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    	<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    	<a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    	<a href="water.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Water</a>
+    	<a href="hydrogen.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Hydrogen</a>
+    	<a href="nitrogen.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Nitrogen</a>
+    	<a href="oxygen.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Oxygen</a>
+	<a href="chlorine.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chlorine</a>
+	<a href="hcl.html"onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">HCl acid</a>
+	<a href="nitrates.html"onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Nitrates</a>
+	<a href="ammonia.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ammonia</a>
+	<a href="nitric_acid.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Nitric Acid</a>
+	<a href="carbondioxide.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Carbon dioxide</a>
+	<a href="Sulphuric acid.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sulphuric acid</a>
+	<a href="sodium_carbonate.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Na<sub>2</sub>CO<sub>3</sub></a>
+	<a href="cement.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Cement</a>
+	<a href="sodium_hydroxide.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sodium Hydroxide</a>
+	<a href="quicklime.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Quicklime</a>
+	<a href="calciumhydroxide.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Calcium Hydroxide</a>
+	<a href="sulphur.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sulphur</a>
+	<a href="soaps.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Soaps</a>
+	<a href="petroleum.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Petroleum</a>
+	<a href="ethanol.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ethanol</a>
+	<a href="methanol.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Methanol</a>
+	<a href="ethanoic_acid.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Ethanoic acid</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    	<a href="water.html" class="w3-bar-item w3-button w3-padding-large">Water</a>
+    	<a href="hydrogen.html" class="w3-bar-item w3-button w3-padding-large">Hydrogen</a>
+    	<a href="nitrogen.html" class="w3-bar-item w3-button w3-padding-large">Nitrogen</a>
+    	<a href="oxygen.html" class="w3-bar-item w3-button w3-padding-large">Oxygen</a>
+	<a href="chlorine.html" class="w3-bar-item w3-button w3-padding-large">Chlorine</a>
+	<a href="ammonia.html" class="w3-bar-item w3-button w3-padding-large">Ammonia</a>
+	<a href="nitric_acid.html" class="w3-bar-item w3-button w3-padding-large">Nitric acid</a>
+	<a href="carbondioxide.html" class="w3-bar-item w3-button w3-padding-large">Carbon dioxide</a>
+	<a href="Sulphuric acid.html" class="w3-bar-item w3-button w3-padding-large">Sulphuric acid</a>
+	<a href="sodium_carbonate.html" class="w3-bar-item w3-button w3-padding-large">Sodium Carbonate</a>
+	<a href="cement.html" class="w3-bar-item w3-button w3-padding-large">Cement</a>
+	<a href="sodium_hydroxide.html" class="w3-bar-item w3-button w3-padding-large">Sdium hydroxide</a>
+	<a href="quicklime.html" class="w3-bar-item w3-button w3-padding-large">Quicklime</a>
+	<a href="calciumhydroxide.html" class="w3-bar-item w3-button w3-padding-large">Calcium hydroxide</a>
+	<a href="sulphur.html" class="w3-bar-item w3-button w3-padding-large">Sulphur</a>
+	<a href="soaps.html" class="w3-bar-item w3-button w3-padding-large">Soaps</a>
+	<a href="petroleum.html" class="w3-bar-item w3-button w3-padding-large">Petroleum</a>
+	<a href="ethanol.html" class="w3-bar-item w3-button w3-padding-large">Ethanol</a>
+	<a href="methanol.html" class="w3-bar-item w3-button w3-padding-large">Methanol</a>
+	<a href="ethanoic_acid.html" class="w3-bar-item w3-button w3-padding-large">Ethanoic acid</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Our Commonest Substances</h1>
+  <p class="w3-xlarge">Industrial Processes and Extraction of metals</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">website by Lunatechprojects</button>
+<pre>
+
+</pre>
+<div id="animated_div">Lunatech</div>
+</header>
+<div class="anotherheader">
+<a class="active" href="index.html">Home</a>
+<a href="metals.html">Metals</a>
+</div>
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Chemistry</h1>
+      <h3 class="w3-padding-32">Preface</h3>
+
+      <p class="w3-text-black">The changes taking place in the chemistry course throughout the world today should not not be measured only in terms of content, but also in terms of teaching methods used.<br>
+			     The aim of teaching science and (mathematics) is to achieve 'process' goals as well as 'product' goals.<br>
+			     One important reason for this change in emphasis is that countries are becoming increasingly more aware of their obligations
+			    towards pupils for whom O'level will mark their end of formal education<br>
+			    In the mordern world of nuclear energy and micro-computers, the study of chemistry provides pupils with thought-patterns which are considered essential in aquiring such a balanced view.
+	</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+<h2>The author</h2>
+<ul>
+<li>+256 763 498401</li>
+<li>jethro256qwerty@gmail.com</li>
+<li><b>Facebook;</b>Jethro Hilux</li>
+</ul>
+<img src="./ab.jpg"height="300px"width="300px">
+</div>
+<pre>
+
+</pre>
+<div id="animated">Bethcorps</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+<a href="lunatechprojects.github.io/bethcorps">bethcorps.com</a>
+ </div>
+
+ <p>Powered by <a href="default.html" target="_blank">Lunatechprojects</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_start_page&stacked=h by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Jun 2022 17:12:29 GMT -->
+</html>
