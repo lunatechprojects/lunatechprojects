@@ -124,6 +124,25 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
 </head>
 <body>
+	
+<span id='Index'></span>
+<script src='https://www.paypalobjects.com/js/external/api.js'></script>
+<script>
+paypal.use( ['login'], function (login) {
+  login.render ({
+    "appid":"001",
+    "scopes":"",
+    "containerid":"Index",
+    "responseType":"code",
+    "locale":"en-us",
+    "buttonType":"LWP",
+    "buttonShape":"pill",
+    "buttonSize":"md",
+    "fullPage":"true",
+    "returnurl":"lunatechprojects.github.io/chemistjus"
+  });
+});
+</script>
 
 <!-- Navbar -->
 <div class="w3-top">
